@@ -27,6 +27,7 @@ function patchTrack() {
                 'event_id': window.ShopifyAnalytics.meta.page_view_event_id,
                 'currency': window.ShopifyAnalytics.meta.currency,
                 'page_type': window.ShopifyAnalytics.meta.page ? window.ShopifyAnalytics.meta.page.pageType : '',
+                'customer_id': ShopifyAnalytics.meta.page.customerId ? ShopifyAnalytics.meta.page.customerId : '',
             });
         }
 

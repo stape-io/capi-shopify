@@ -1,0 +1,17 @@
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    {%- if customer -%}
+        dataLayer.push({
+            'event': 'customer_data',
+            'id': {{customer.id | json }},
+            'firstName': {{ customer.first_name | json }},
+            'surname': {{ customer.last_name | json }},
+            'email': {{ customer.email | json }},
+            'ordersCount': {{ customer.orders_count | json }},
+            'totalSpent': {{ customer.total_spent | money_without_currency | json }},
+            'acceptsMarketing': {{ customer.accepts_marketing | json }},
+            'tags': {{ customer.tags | json }}
+        });
+    {%- endif -%}
+</script>
