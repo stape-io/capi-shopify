@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2021-06-02 09:40:38",
+    "exportTime": "2021-06-03 05:53:32",
     "containerVersion": {
         "path": "accounts/6004066602/containers/46297548/versions/0",
         "accountId": "6004066602",
@@ -195,7 +195,7 @@
             {
                 "accountId": "6004066602",
                 "containerId": "46297548",
-                "tagId": "22",
+                "tagId": "26",
                 "name": "Data Tag - View Content",
                 "type": "cvt_46297548_9",
                 "parameter": [
@@ -517,7 +517,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622622303783",
+                "fingerprint": "1622627698714",
                 "firingTriggerId": [
                     "25"
                 ],
@@ -530,7 +530,7 @@
             {
                 "accountId": "6004066602",
                 "containerId": "46297548",
-                "tagId": "23",
+                "tagId": "27",
                 "name": "Data Tag - Add to Cart",
                 "type": "cvt_46297548_9",
                 "parameter": [
@@ -852,7 +852,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622622293185",
+                "fingerprint": "1622627698715",
                 "firingTriggerId": [
                     "24"
                 ],
@@ -1353,6 +1353,23 @@
                 "fingerprint": "1622622031658",
                 "parentFolderId": "3",
                 "formatValue": {}
+            },
+            {
+                "accountId": "6004066602",
+                "containerId": "46297548",
+                "variableId": "28",
+                "name": "fb event ID - pageview",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "meta.page_view_event_id"
+                    }
+                ],
+                "fingerprint": "1622699597723",
+                "parentFolderId": "3",
+                "formatValue": {}
             }
         ],
         "folder": [
@@ -1474,7 +1491,7 @@
                 "name": "Debug Mode"
             }
         ],
-        "fingerprint": "1622626838286",
+        "fingerprint": "1622699612738",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004066602/containers/46297548/versions/0?apiLink=version",
         "customTemplate": [
             {
