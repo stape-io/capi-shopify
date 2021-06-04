@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2021-06-03 05:53:32",
+    "exportTime": "2021-06-04 07:44:47",
     "containerVersion": {
         "path": "accounts/6004066602/containers/46297548/versions/0",
         "accountId": "6004066602",
@@ -67,7 +67,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -182,7 +182,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622622031654",
+                "fingerprint": "1622792180373",
                 "firingTriggerId": [
                     "2147479553"
                 ],
@@ -242,7 +242,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -517,7 +517,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622627698714",
+                "fingerprint": "1622792577173",
                 "firingTriggerId": [
                     "25"
                 ],
@@ -577,7 +577,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -852,7 +852,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622627698715",
+                "fingerprint": "1622792568464",
                 "firingTriggerId": [
                     "24"
                 ],
@@ -1491,7 +1491,7 @@
                 "name": "Debug Mode"
             }
         ],
-        "fingerprint": "1622699612738",
+        "fingerprint": "1622792687667",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004066602/containers/46297548/versions/0?apiLink=version",
         "customTemplate": [
             {
