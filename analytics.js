@@ -1,8 +1,12 @@
 window.dataLayer = window.dataLayer || [];
 
-var patchedTrack =  function(type, data, eventId) {
+var patchedTrack =  function(type, data, eventId) {    
+    if (!eventId) {
+        eventId = Math.random().toString(36).substr(2, 9) + '_' + Math.random().toString(36).substr(2, 9) +'_' + Math.random().toString(36).substr(2, 9);
+    }
+    
     if (type === 'Viewed Product' || type === 'Added Product') {
-        var dataLayerData = data;
+        var dataLayerData = data;  
 
         dataLayerData.content_type = data.productId ? 'product_group' : 'product';
         dataLayerData.event_id = eventId;
