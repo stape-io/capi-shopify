@@ -4,6 +4,7 @@ var patchedTrack =  function(type, data, eventId) {
     if (type === 'Viewed Product' || type === 'Added Product') {
         var dataLayerData = data;
 
+        dataLayerData.content_type = data.productId ? 'product_group' : 'product';
         dataLayerData.event_id = eventId;
         dataLayerData.event = type;
 
