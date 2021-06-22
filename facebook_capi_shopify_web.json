@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2021-06-04 07:44:47",
+    "exportTime": "2021-06-22 05:41:20",
     "containerVersion": {
         "path": "accounts/6004066602/containers/46297548/versions/0",
         "accountId": "6004066602",
@@ -27,7 +27,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_data_layer",
-                        "value": "true"
+                        "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
@@ -170,7 +170,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{fb event ID - pageview}}"
+                                        "value": "{{dlv - facebook event_id}}"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -182,9 +182,9 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622792180373",
+                "fingerprint": "1624337494083",
                 "firingTriggerId": [
-                    "2147479553"
+                    "30"
                 ],
                 "parentFolderId": "3",
                 "tagFiringOption": "ONCE_PER_EVENT",
@@ -202,7 +202,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_data_layer",
-                        "value": "true"
+                        "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
@@ -360,26 +360,6 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "brand"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{dlv - brand}}"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "transformation",
-                                        "value": "none"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
                                         "value": "category"
                                     },
                                     {
@@ -460,12 +440,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "sku"
+                                        "value": "currency"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{dlv - sku}}"
+                                        "value": "{{dlv - currency}}"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -480,32 +460,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "variant"
+                                        "value": "content_type"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{dlv - variant}}"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "transformation",
-                                        "value": "none"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "variant_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{dlv - variantId}}"
+                                        "value": "{{dlv - content_type}}"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -517,7 +477,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622792577173",
+                "fingerprint": "1624337311507",
                 "firingTriggerId": [
                     "25"
                 ],
@@ -537,7 +497,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_data_layer",
-                        "value": "true"
+                        "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
@@ -695,26 +655,6 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "brand"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{dlv - brand}}"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "transformation",
-                                        "value": "none"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
                                         "value": "category"
                                     },
                                     {
@@ -795,12 +735,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "sku"
+                                        "value": "currency"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{dlv - sku}}"
+                                        "value": "{{dlv - currency}}"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -815,32 +755,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "name",
-                                        "value": "variant"
+                                        "value": "content_type"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{dlv - variant}}"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "transformation",
-                                        "value": "none"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "name",
-                                        "value": "variant_id"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{dlv - variantId}}"
+                                        "value": "{{dlv - content_type}}"
                                     },
                                     {
                                         "type": "TEMPLATE",
@@ -852,7 +772,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622792568464",
+                "fingerprint": "1624337367224",
                 "firingTriggerId": [
                     "24"
                 ],
@@ -913,6 +833,31 @@
                     }
                 ],
                 "fingerprint": "1622622277779"
+            },
+            {
+                "accountId": "6004066602",
+                "containerId": "46297548",
+                "triggerId": "30",
+                "name": "ce - page_view_gtm",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "page_view_gtm"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1624336705122"
             }
         ],
         "variable": [
@@ -929,7 +874,7 @@
                         "value": "YOUR SERVER URL"
                     }
                 ],
-                "fingerprint": "1622622031650",
+                "fingerprint": "1624339686421",
                 "parentFolderId": "3",
                 "formatValue": {}
             },
@@ -1053,7 +998,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1622622031652",
+                "fingerprint": "1624339673004",
                 "parentFolderId": "3",
                 "formatValue": {}
             },
@@ -1087,60 +1032,6 @@
             {
                 "accountId": "6004066602",
                 "containerId": "46297548",
-                "variableId": "12",
-                "name": "dlv - variant",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "variant"
-                    }
-                ],
-                "fingerprint": "1622622031654",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004066602",
-                "containerId": "46297548",
-                "variableId": "13",
-                "name": "dlv - variantId",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "variantId"
-                    }
-                ],
-                "fingerprint": "1622622031655",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004066602",
-                "containerId": "46297548",
                 "variableId": "14",
                 "name": "dlv - product name",
                 "type": "v",
@@ -1162,60 +1053,6 @@
                     }
                 ],
                 "fingerprint": "1622622031655",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004066602",
-                "containerId": "46297548",
-                "variableId": "15",
-                "name": "dlv - sku",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "sku"
-                    }
-                ],
-                "fingerprint": "1622622031655",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004066602",
-                "containerId": "46297548",
-                "variableId": "16",
-                "name": "dlv - page_type",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "page_type"
-                    }
-                ],
-                "fingerprint": "1622622031656",
                 "parentFolderId": "3",
                 "formatValue": {}
             },
@@ -1267,33 +1104,6 @@
                         "type": "TEMPLATE",
                         "key": "name",
                         "value": "price"
-                    }
-                ],
-                "fingerprint": "1622622031657",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004066602",
-                "containerId": "46297548",
-                "variableId": "19",
-                "name": "dlv - brand",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "brand"
                     }
                 ],
                 "fingerprint": "1622622031657",
@@ -1357,17 +1167,54 @@
             {
                 "accountId": "6004066602",
                 "containerId": "46297548",
-                "variableId": "28",
-                "name": "fb event ID - pageview",
-                "type": "j",
+                "variableId": "31",
+                "name": "dlv - currency",
+                "type": "v",
                 "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "meta.page_view_event_id"
+                        "value": "currency"
                     }
                 ],
-                "fingerprint": "1622699597723",
+                "fingerprint": "1624337153105",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004066602",
+                "containerId": "46297548",
+                "variableId": "32",
+                "name": "dlv - content_type",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "content_type"
+                    }
+                ],
+                "fingerprint": "1624337171475",
                 "parentFolderId": "3",
                 "formatValue": {}
             }
@@ -1491,7 +1338,7 @@
                 "name": "Debug Mode"
             }
         ],
-        "fingerprint": "1622792687667",
+        "fingerprint": "1624340479960",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004066602/containers/46297548/versions/0?apiLink=version",
         "customTemplate": [
             {
