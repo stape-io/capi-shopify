@@ -8,8 +8,8 @@ analytics.liquid sends user data to the data layer. You can use customer data to
 
 ## How to set up Facebook conversion API for Shopify.
 
-Follow this guide on setting up [FB CAPI for Shopify](https://gtm-server.com/facebook-conversion-api-for-shopify/).
+Follow this guide on setting up [FB CAPI for Shopify](https://stape.io/facebook-conversion-api-for-shopify/).
 
 ## Open Source
 
-Developed and maintained by [GTM Server Team](https://gtm-server.com/) under the MIT license.
+Developed and maintained by [Stape Team](https://stape.io/) under the MIT license.
